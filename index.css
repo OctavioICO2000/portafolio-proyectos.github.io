@@ -32,3 +32,14 @@ button{
 button:hover{
   background-color: rgb(50, 50, 50);
 }
+
+.contenedor{
+  max-width: 1400px
+  margin: auto;
+}
+
+.color-conocimientos{ color: rgb(8, 62, 209);}
+
+header{
+  background-color: rgb(245, 245, 245);
+}
