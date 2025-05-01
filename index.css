@@ -43,3 +43,54 @@ button:hover{
 header{
   background-color: rgb(245, 245, 245);
 }
+
+header .nombre{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(8, 62, 209);
+  font-size: 1.6em;
+}
+
+header .contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-botton: 25px;
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header .corriente{
+  color: rgb(209, 172, 8);
+}
+
+header a:hover{
+  color: rgb(209, 172, 8);
+}
+
+#hero{
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  )
+}
+
