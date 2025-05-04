@@ -14,7 +14,7 @@ body{
 
 h1{ font-size: 2.0em;}
 h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
+h3{ font-size: 1.5em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
@@ -168,7 +168,7 @@ header a:hover{
 }
 
 #caracteristicas .contenedor{
-  text-align: center;
+  text-align: justify;
   padding: 200px 12px
 }
 
