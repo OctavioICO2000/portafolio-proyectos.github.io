@@ -1,0 +1,149 @@
+/*RESPONSIVE PARA MOVIL*/
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h2{ font-size: 2.7em;}
+h3{ font-size: 1.5em;}
+p{ font-size: 1.25em;}
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: black;
+}
+
+button:hover{
+  background-color: rgb(50, 50, 50);
+}
+
+.contenedor-header, .contenedor-proyectos, .contenedor-pie-pagina{
+  max-width: 1400px;
+  margin: auto;
+}
+
+header{
+  background-color: rgb(245, 245, 245);
+}
+
+header .titulo-header{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(8, 62, 209);
+  font-size: 1.6em;
+  text-align: center;
+}
+
+header .contenedor-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-botton: 25px;
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header .resaltado{
+  color: rgb(209, 172, 8);
+}
+
+header a:hover{
+  color: rgb(209, 172, 8);
+}
+
+#mis-proyectos{
+  background-color: rgb(30,30,30);
+  color: white;
+  text-align: center;
+}
+
+#mis-proyectos .contenedor-proyectos{
+  padding: 150px 12px;
+}
+
+#mis-proyectos h2{
+  margin-top: 0;
+  font-size: 3.2;
+}
+
+#mis-proyectos p{
+  display: none;
+}
+
+#mis-proyectos .carta{
+  background-size: cover;
+  background-position: center center;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta:first-child{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ),
+    url("profesional.jpg");
+}
+
+.carta:nth-child(2){
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ),
+    url("profesional.jpg");
+}
+
+.carta:nth-child(3){
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  ),
+    url("profesional.jpg");
+}
+
+footer{
+  background-color: rgb(230,230,230);
+}
+
+footer p{
+  margin: 0;
+  padding: 12px;
+  color: rgb(100,100,100);
+}
+
+footer .contenedor-pie-pagina{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

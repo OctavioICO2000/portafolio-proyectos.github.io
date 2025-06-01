@@ -16,15 +16,29 @@
     padding-right: 20px;
   }
   
-  #bienvenida h1{
-    font-size: 5em;
+   #mi-contacto .contacto{
+    display: flex;
+    justify-content: center;
+  }
+  #mi-contacto p{
+    display: block;
+    margin-bottom: 30px;
+  }
+  #mi-contacto h2{
+    font-size: 4em;
+  }
+  #mi-contacto h3{
+    margin-top: 0;
+  }
+  #mi-contacto .carta{
+    padding: 50px;
   }
   
   footer .contenedor-pie-pagina{
     justify-content: flex-end;
   }
 }
-  @media (min-width: 1000px){
+@media (min-width: 1000px){
   #caracteristicas{
     background-position-x: calc(100vw - 700px);
     }

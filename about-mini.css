@@ -1,0 +1,98 @@
+/*RESPONSIVE PARA MOVIL*/
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h2{ font-size: 2.7em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+.contenedor-header, .contenedor-pie-pagina, .contenedor-estudios, .contenedor-habilidades{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.color-conocimientos{ color: rgb(8, 62, 209);}
+
+header{
+  background-color: rgb(245, 245, 245);
+}
+
+header .titulo-header{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(8, 62, 209);
+  font-size: 1.6em;
+  text-align: center;
+}
+
+header .contenedor-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-botton: 25px;
+}
+
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header .resaltado{
+  color: rgb(209, 172, 8);
+}
+
+header a:hover{
+  color: rgb(209, 172, 8);
+}
+
+#soy-octavio .contenedor-estudios{
+  text-align: justify;
+  padding: 200px 12px;
+}
+
+#caracteristicas .contenedor-habilidades{
+  text-align: center;
+  padding: 200px 12px
+}
+
+#caracteristicas li{
+  margin: 15px 0px;
+  font-weight: bold;
+}
+
+footer{
+  background-color: rgb(230,230,230);
+}
+
+footer p{
+  margin: 0;
+  padding: 12px;
+  color: rgb(100,100,100);
+}
+
+footer .contenedor-pie-pagina{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
